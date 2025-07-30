@@ -11,9 +11,9 @@ import menu_6 from './menu_6.jpg'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.jpg'
 
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
-import food_3 from './food_3.png'
+import food_1 from './food_1.jpg'
+import food_2 from './food_2.jpg'
+import food_3 from './food_3.jpg'
 import food_4 from './food_4.png'
 import food_5 from './food_5.png'
 import food_6 from './food_6.png'
@@ -121,26 +121,26 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Rajma Chawal",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Slow-cooked kidney beans in a spiced tomato gravy, served with steamed rice.",
+        category: "Ghar Ka Khana"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Egg Curry with Rice",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Boiled eggs cooked in a lightly spiced onion-tomato gravy, served with steamed rice.",
+        category: "Ghar Ka Khana "
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Veg Pulao with Raita",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Fragrant basmati rice cooked with mixed vegetables and mild spices, served with raita.",
+        category: "Ghar Ka Khanayes"
     }, {
         _id: "4",
         name: "Chicken Salad",
