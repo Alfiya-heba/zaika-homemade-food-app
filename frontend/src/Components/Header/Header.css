@@ -1,57 +1,83 @@
-/* .header{
-    height: 34vw;
-    margin: 30px auto;
-    background: url('/header.png') no-repeat;
-    background-size: cover;
-    position: relative;
-} */
 .header {
-    height: 80vh; /* Adjust based on your need: 60vh–100vh works well */
-    width: 100%;
-    margin: 30px auto;
-    background: url('header.png') no-repeat center center;
-    background-size: cover;
-    position: relative;
-    /* border-radius: 20px; */
-    overflow: hidden;
-  }
-  .header::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.3); /* darkens the image */
-    z-index: 1;
-    border-radius: 15px;
-  }
-  
+  height: 80vh; /* Flexible full-screen style */
+  width: 100%;
+  margin: 30px auto;
+  background: url('header.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px; /* Keep consistent with overlay */
+  overflow: hidden;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35); /* slightly darker for better readability */
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5vw;
+  max-width: 50%;
+  top: 20%;
+  left: 6vw;
+  color: white;
+  animation: fadeIn 3s ease-in-out;
+  z-index: 2; /* ensures above overlay */
+}
+
+.header-contents h2 {
+  font-weight: 600;
+  color: white;
+  font-size: max(4.5vw, 28px); /* ensures readable size */
+  line-height: 1.2;
+}
+
+.header-contents p {
+  color: #f0f0f0;
+  font-size: clamp(14px, 1.2vw, 18px); /* responsive but never too small */
+  line-height: 1.5;
+}
+
+.header-contents button {
+  border: none;
+  color: #747474;
+  font-weight: 600;
+  padding: 1vw 2.5vw;
+  background-color: white;
+  font-size: clamp(13px, 1vw, 16px);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-contents button:hover {
+  background-color: #ffeae5;
+  color: tomato;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1050px) {
   .header-contents {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1.5vw;
-    max-width: 50%;
-    top: 20%;
-    left: 6vw;
-    color: white;
-    animation: fadeIn 3s;
+    max-width: 60%;
   }
-  .header-contents h2{
-    font-weight: 500;
-    color: white;
-    font-size: max(4.5vw,22px);
+}
+
+@media (max-width: 750px) {
+  .header-contents {
+    max-width: 80%;
   }
-  .header-contents p{
-    color: white;
-    font-size: 1vw;
+  .header-contents p {
+    display: none; /* hide paragraph on small screens */
   }
-  .header-contents button{
-    border: none;
-    color: #747474;
-    font-weight: 500;
-    padding: 1vw 2.3vw;
-    background-color: white;
-    font-size: max(1vx,13px);
-    border-radius: 50px;
+  .header-contents button {
+    padding: 2.5vw 5vw;
+    font-size: 14px;
   }
-  
+}

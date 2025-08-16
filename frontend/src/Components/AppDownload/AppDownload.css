@@ -1,0 +1,32 @@
+.app-download {
+    margin: 100px auto;
+    text-align: center;
+    font-size: max(2.5vw, 20px);
+    font-weight: 600;
+    color: #262626;
+    line-height: 1.4;
+    max-width: 600px; /* keeps text readable on large screens */
+  }
+  
+  .app-download-platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: max(2vw, 15px);
+    margin-top: 40px;
+    flex-wrap: wrap; /* prevents overflow on small screens */
+  }
+  
+  .app-download-platforms img {
+    width: max(25vw, 120px);
+    max-width: 180px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px; /* subtle rounded corners */
+  }
+  
+  .app-download-platforms img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* smooth hover effect */
+  }
+  
