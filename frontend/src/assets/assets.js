@@ -2,14 +2,17 @@ import basket_icon from './basket_icon.png'
 import logo from './zaika.jpg'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.jpg'
-import menu_2 from './menu_2.jpg'
-import menu_3 from './menu_3.jpg'
-import menu_4 from './menu_4.jpg'
-import menu_5 from './menu_5.jpg'
-import menu_6 from './menu_6.jpg'
+import menu_1 from './menu_1.png'
+import menu_2 from './menu_2.png'
+import menu_3 from './menu_3.png'
+import menu_4 from './menu_4.png'
+import menu_5 from './menu_5.png'
+import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.jpg'
+import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.png'
+import menu_10 from './menu_10.png'
+
 
 import food_1 from './food_1.jpg'
 import food_2 from './food_2.jpg'
@@ -92,346 +95,368 @@ export const assets = {
 
 export const menu_list = [
     {
-      menu_name: "Ghar Ka Khana",
+      menu_name: "Fathima's kitchen",
       menu_image: menu_1
     },
     {
-        menu_name: "Breakfast Delight",
+        menu_name: "Sharma's Kitchen",
         menu_image: menu_2
       },
     {
-      menu_name: "Zaika Specials",
+      menu_name: "Latha's Rasoi",
       menu_image: menu_3
     },
     {
-      menu_name: "Tandoori Corner",
+      menu_name: "Nagma's Tandoori Tales",
       menu_image: menu_4
     },
     {
-      menu_name: "Rice & Biryani",
+      menu_name: "Sheela's Curry Corner",
       menu_image: menu_5
     },
     {
-      menu_name: "Roti & Paratha",
+      menu_name: "Meher's Zaika Ghar",
       menu_image: menu_6
     },
     {
-      menu_name: "Curries & Gravies",
+      menu_name: "Heba's Special",
       menu_image: menu_7
     },
     {
-      menu_name: "Snacks & Sides",
+      menu_name: "Bina's Bowl",
       menu_image: menu_8
     },
     {
-      menu_name: "Desserts",
-      menu_image: menu_8
+      menu_name: "Radha's Taste Trails",
+      menu_image: menu_9
     },
     {
-      menu_name: "Drinks",
-      menu_image: menu_8
+      menu_name: "Shahid's Shaam ki Mehfil",
+      menu_image: menu_10
     },
     
   ];
   
 
 export const food_list = [
-    {
-        _id: "1",
-        name: "Rajma Chawal",
-        image: food_1,
-        price: 12,
-        description: "Slow-cooked kidney beans in a spiced tomato gravy, served with steamed rice.",
-        category: "Ghar Ka Khana"
-    },
-    {
-        _id: "2",
-        name: "Aloo Paratha with Curd",
-        image: food_2,
-        price: 15,
-        description: "Whole wheat flatbread stuffed with spiced mashed potatoes, served with fresh curd.",
-        category: "Ghar Ka Khana"
-    },
-    {
-        _id: "3",
-        name: "Chole Bhature",
-        image: food_3,
-        price: 18,
-        description: "Spicy chickpeas curry paired with fluffy fried bhature (Indian bread).",
-        category: "Ghar Ka Khana"
-    },
-    {
-        _id: "4",
-        name: "Khichdi with Ghee & Papad",
-        image: food_4,
-        price: 10,
-        description: "Comforting one-pot dish made with rice and lentils, served with a dollop of ghee and crunchy papad.",
-        category: "Ghar Ka Khana"
-    }, {
-        _id: "5",
-        name: "Masala Dosa",
-        image: food_5,
-        price: 14,
-        description: "Crispy fermented rice crepe filled with spiced mashed potatoes, served with coconut chutney and sambar.",
-        category: "Breakfast Delight"
-    }, {
-        _id: "6",
-        name: "Upma",
-        image: food_6,
-        price: 12,
-        description: "Savory semolina dish cooked with vegetables, mustard seeds, and curry leaves—light and filling.",
-        category: "Breakfast Delight"
-    }, {
-        _id: "7",
-        name: "Poha with Sev",
-        image: food_7,
-        price: 20,
-        description: "Flattened rice tossed with mustard seeds, curry leaves, turmeric, and topped with crispy sev.",
-        category: "Breakfast Delight"
-    }, {
-        _id: "8",
-        name: "Idli Sambar",
-        image: food_8,
-        price: 15,
-        description: "Soft steamed rice cakes served with piping hot lentil sambar and a variety of chutneys.",
-        category: "Breakfast Delight"
-    }, {
-        _id: "9",
-        name: "Paneer Lababdar",
-        image: food_9,
-        price: 14,
-        description: "Rich and creamy paneer curry with a blend of tomatoes, onions, and aromatic spices.",
-        category: "Zaika Specials"
-    }, {
-        _id: "10",
-        name: "Veg Nawabi Kofta",
-        image: food_10,
-        price: 22,
-        description: "Delicate vegetable dumplings simmered in a luxurious, mildly spiced Mughlai gravy.",
-        category: "Zaika Specials"
-    }, 
-    {
-        _id: "11",
-        name: "Chicken Handi",
-        image: food_11,
-        price: 10,
-        description: "Succulent chicken slow-cooked in a traditional clay pot with Mughlai spices and cream.",
-        category: "Zaika Specials"
-    }, 
-    {
-        _id: "12",
-        name: "Mutton Rogan Josh",
-        image: food_12,
-        price: 12,
-        description:  "A Kashmiri specialty of tender lamb simmered in a rich yogurt-based gravy.",
-        category: "Zaika Specials"
-    },
-    {
-        _id: "13",
-        name: "Paneer Tikka",
-        image: food_13,
-        price: 12,
-        description: "Chunks of paneer marinated in yogurt and spices, grilled in a traditional tandoor.",
-        category: "Tandoori Corner"
-    },
-    {
-        _id: "14",
-        name: "Tandoori Aloo",
-        image: food_14,
-        price: 18,
-        description: "Baby potatoes marinated in spicy masala, skewered and grilled to perfection.",
-        category: "Tandoori Corner"
-    }, {
-        _id: "15",
-        name: "Tandoori Chicken",
-        image: food_15,
-        price: 16,
-        description: "Classic Indian dish with chicken marinated in spiced yogurt, roasted in a tandoor.",
-        category: "Tandoori Corner"
-    }, {
-        _id: "16",
-        name: "Fish Tikka",
-        image: food_16,
-        price: 24,
-        description:  "Soft fish fillets marinated with zesty spices and grilled in the tandoor for a smoky flavor.",
-        category: "Tandoori Corner"
-    }, {
-        _id: "17",
-        name: "Veg Biryani",
-        image: food_17,
-        price: 14,
-        description: "Aromatic basmati rice cooked with assorted vegetables and spices, served with raita.",
-        category: "Rice & Biryani"
-    }, {
-        _id: "18",
-        name: "Jeera Rice with Dal Tadka",
-        image: food_18,
-        price: 12,
-        description: "Fluffy cumin-scented rice paired with rich yellow dal tempered in ghee.",
-        category: "Rice & Biryani"
-    }, {
-        _id: "19",
-        name: "Chicken Dum Biryani",
-        image: food_19,
-        price: 20,
-        description: "Fragrant rice layered with marinated chicken, slow-cooked in dum style for deep flavor.",
-        category: "Rice & Biryani"
-    }, {
-        _id: "20",
-        name: "Mutton Biryani",
-        image: food_20,
-        price: 15,
-        description: "Tender mutton pieces cooked with saffron-infused basmati rice and royal spices.",
-        category: "Rice & Biryani"
-    }, {
-        _id: "21",
-        name: "Tandoori Roti ",
-        image: food_21,
-        price: 14,
-        description: "Traditional whole wheat flatbread baked in a tandoor, served hot and crisp.",
-        category: "Roti & Paratha"
-    }, {
-        _id: "22",
-        name: "Butter Naan",
-        image: food_22,
-        price: 22,
-        description:  "Soft, fluffy naan brushed with melted butter – perfect with rich gravies.",
-        category: "Roti & Paratha"
-    }, {
-        _id: "23",
-        name: "Lachha Paratha",
-        image: food_23,
-        price: 10,
-        description: "Multi-layered flaky paratha made with ghee, offering crisp edges and soft layers.",
-        category: "Roti & Paratha"
-    }, {
-        _id: "24",
-        name: "Missi Roti",
-        image: food_24,
-        price: 12,
-        description:"A flavorful roti made from gram flour and spices, offering a rustic touch.",
-        category: "Roti & Paratha"
-    },
-    {
-        _id: "25",
-        name: "Paneer Butter Masala",
-        image: food_25,
-        price: 12,
-        description: "Cottage cheese cubes simmered in a rich, creamy tomato-based gravy with butter and spices.",
-        category: "Curries & Gravies"
-    },
-    {
-        _id: "26",
-        name: "Chicken Curry",
-        image: food_26,
-        price: 18,
-        description: "Classic home-style chicken curry with onions, tomatoes, and aromatic Indian spices.",
-        category: "Curries & Gravies"
-    }, {
-        _id: "27",
-        name: "Chana Masala",
-        image: food_27,
-        price: 16,
-        description: "Spiced chickpeas cooked in a thick, tangy onion-tomato gravy – a North Indian favorite.",
-        category: "Curries & Gravies"
-    }, {
-        _id: "28",
-        name: "Egg Curry",
-        image: food_28,
-        price: 24,
-        description: "Boiled eggs cooked in a flavorful gravy of onions, tomatoes, and ground spices.",
-        category: "Curries & Gravies"
-    }, {
-        _id: "29",
-        name: "Samosa",
-        image: food_29,
-        price: 14,
-        description: "Crispy deep-fried pastry filled with a spicy potato and pea mixture – the ultimate Indian snack.",
-        category: "Snacks & Sides"
-    }, {
-        _id: "30",
-        name: "Veg Cutlet",
-        image: food_30,
-        price: 12,
-        description: "Soft paneer cubes dipped in spiced gram flour batter and fried to golden perfection.",
-        category: "Snacks & Sides"
-    }, {
-        _id: "31",
-        name: "Paneer Pakoda",
-        image: food_31,
-        price: 20,
-        description: "Soft paneer cubes dipped in spiced gram flour batter and fried to golden perfection.",
-        category: "Snacks & Sides"
-    }, {
-        _id: "32",
-        name: "Chicken Lollipop",
-        image: food_32,
-        price: 15,
-        description:"Frenched chicken wings marinated and fried, served with spicy Schezwan dip.",
-        category: "Snacks & Sides"
-    },
-    {
-        _id: "33",
-        name: "Gulab Jamun",
-        image: food_33,
-        price: 10,
-        description: "Soft, deep-fried milk balls soaked in fragrant rose-cardamom sugar syrup.",
-        category: "Desserts"
-    },
-    {
-        _id: "34",
-        name: "Rasmalai",
-        image: food_34,
-        price: 14,
-        description: "Creamy and spongy cheese patties soaked in saffron-flavored milk and garnished with dry fruits.",
-        category: "Desserts"
-    },
-    {
-        _id: "35",
-        name: "Gajar Ka Halwa",
-        image: food_35,
-        price: 12,
-        description: "Slow-cooked grated carrots in ghee and milk, topped with nuts and raisins.",
-        category: "Desserts"
-    },
-    {
-        _id: "36",
-        name: "Phirni",
-        image: food_36,
-        price: 11,
-        description: "Chilled ground rice pudding flavored with cardamom and saffron, served in traditional clay pots.",
-        category: "Desserts"
-    },
-    {
-        _id: "37",
-        name: "Masala Chai",
-        image: food_37,
-        price: 8,
-        description: "Traditional Indian spiced tea brewed with milk, ginger, and aromatic spices.",
-        category: "Drinks"
-    },
-    {
-        _id: "38",
-        name: "Sweet Lassi",
-        image: food_38,
-        price: 10,
-        description: "Refreshing yogurt-based drink, sweetened and flavored with cardamom.",
-        category: "Drinks"
-    },
-    {
-        _id: "39",
-        name: "Nimbu Pani",
-        image: food_39,
-        price: 6,
-        description: "Classic Indian lemonade made with fresh lemon juice, sugar, and a hint of salt and spices.",
-        category: "Drinks"
-    },
-    {
-        _id: "40",
-        name: "Rose Milk",
-        image: food_40,
-        price: 9,
-        description: "Chilled milk infused with rose syrup for a soothing floral flavor.",
-        category: "Drinks"
-    }
-]
+   
+        {
+            _id: "1",
+            name: "Malabar Chicken Biryani",
+            image: food_1,
+            price: 18,
+            description: "Fragrant biryani with Kerala spices, layered with marinated chicken and fried onions.",
+            category: "Fathima's kitchen"
+        },
+        {
+            _id: "2",
+            name: "Beef Ularthiyathu",
+            image: food_2,
+            price: 20,
+            description: "Spicy Kerala-style beef fry with coconut slices and curry leaves.",
+            category: "Fathima's kitchen"
+        },
+        {
+            _id: "3",
+            name: "Kozhi Pathiri",
+            image: food_3,
+            price: 15,
+            description: "Rice pancakes stuffed with minced chicken, steamed and pan-toasted.",
+            category: "Fathima's kitchen"
+        },
+        {
+            _id: "4",
+            name: "Mutta Roast",
+            image: food_4,
+            price: 12,
+            description: "Hard-boiled eggs simmered in onion-tomato masala with curry leaves.",
+            category: "Fathima's kitchen"
+        },
+        {
+            _id: "5",
+            name: "Paneer Butter Masala",
+            image: food_5,
+            price: 16,
+            description: "Rich paneer curry in creamy tomato gravy with butter and spices.",
+            category: "Sharma's Kitchen"
+        },
+        {
+            _id: "6",
+            name: "Dal Makhani",
+            image: food_6,
+            price: 14,
+            description: "Slow-cooked black lentils enriched with cream and butter.",
+            category: "Sharma's Kitchen"
+        },
+        {
+            _id: "7",
+            name: "Chole Bhature",
+            image: food_7,
+            price: 18,
+            description: "Spiced chickpeas served with fluffy fried bread.",
+            category: "Sharma's Kitchen"
+        },
+        {
+            _id: "8",
+            name: "Tandoori Roti with Ghee",
+            image: food_8,
+            price: 10,
+            description: "Whole wheat roti baked in tandoor, brushed with ghee.",
+            category: "Sharma's Kitchen"
+        },
+        {
+            _id: "9",
+            name: "Sambar Rice",
+            image: food_9,
+            price: 12,
+            description: "Steamed rice served with tangy and spicy lentil-based sambar.",
+            category: "Latha's Rasoi"
+        },
+        {
+            _id: "10",
+            name: "Masala Dosa",
+            image: food_10,
+            price: 14,
+            description: "Crispy dosa stuffed with spiced potato filling, served with chutney and sambar.",
+            category: "Latha's Rasoi"
+        },
+        {
+            _id: "11",
+            name: "Lemon Rice",
+            image: food_11,
+            price: 10,
+            description: "Zesty rice tempered with mustard seeds, curry leaves, and lemon juice.",
+            category: "Latha's Rasoi"
+        },
+        {
+            _id: "12",
+            name: "Rasam with Appalam",
+            image: food_12,
+            price: 8,
+            description: "Peppery rasam served with crispy appalams.",
+            category: "Latha's Rasoi"
+        },
+        {
+            _id: "13",
+            name: "Chicken Tandoori",
+            image: food_13,
+            price: 18,
+            description: "Juicy chicken marinated in yogurt and spices, roasted in a tandoor.",
+            category: "Nagma's Tandoori Tales"
+        },
+        {
+            _id: "14",
+            name: "Mutton Korma",
+            image: food_14,
+            price: 22,
+            description: "Royal Mughlai curry of mutton cooked in a rich yogurt and nut-based sauce.",
+            category: "Nagma's Tandoori Tales"
+        },
+        {
+            _id: "15",
+            name: "Butter Naan",
+            image: food_15,
+            price: 10,
+            description: "Soft tandoor-baked naan brushed with butter.",
+            category: "Nagma's Tandoori Tales"
+        },
+        {
+            _id: "16",
+            name: "Shahi Tukda",
+            image: food_16,
+            price: 12,
+            description: "Royal dessert of fried bread in sugar syrup topped with rabri.",
+            category: "Nagma's Tandoori Tales"
+        },
+        {
+            _id: "17",
+            name: "Aloo Gobi Masala",
+            image: food_17,
+            price: 12,
+            description: "Potatoes and cauliflower stir-fried with Indian spices.",
+            category: "Sheela's Curry Corner"
+        },
+        {
+            _id: "18",
+            name: "Palak Paneer",
+            image: food_18,
+            price: 15,
+            description: "Paneer simmered in creamy spinach puree with spices.",
+            category: "Sheela's Curry Corner"
+        },
+        {
+            _id: "19",
+            name: "Poori with Aloo Sabzi",
+            image: food_19,
+            price: 14,
+            description: "Fluffy fried pooris with spiced potato curry.",
+            category: "Sheela's Curry Corner"
+        },
+        {
+            _id: "20",
+            name: "Gajar Halwa",
+            image: food_20,
+            price: 10,
+            description: "Carrot dessert slow-cooked in milk and ghee with nuts.",
+            category: "Sheela's Curry Corner"
+        },
+        {
+            _id: "21",
+            name: "Hyderabadi Biryani",
+            image: food_21,
+            price: 20,
+            description: "Fragrant dum biryani with marinated chicken and saffron rice.",
+            category: "Meher's Zaika Ghar"
+        },
+        {
+            _id: "22",
+            name: "Haleem",
+            image: food_22,
+            price: 18,
+            description: "Slow-cooked wheat, lentils, and meat porridge garnished with fried onions.",
+            category: "Meher's Zaika Ghar"
+        },
+        {
+            _id: "23",
+            name: "Dum Ka Murgh",
+            image: food_23,
+            price: 22,
+            description: "Chicken cooked in a sealed pot with rich Hyderabadi spices.",
+            category: "Meher's Zaika Ghar"
+        },
+        {
+            _id: "24",
+            name: "Double Ka Meetha",
+            image: food_24,
+            price: 12,
+            description: "Bread pudding dessert with saffron milk, dry fruits, and ghee.",
+            category: "Meher's Zaika Ghar"
+        },
+        {
+            _id: "25",
+            name: "Chicken Shawarma Roll",
+            image: food_25,
+            price: 14,
+            description: "Grilled chicken wrapped in pita bread with tahini sauce.",
+            category: "Heba's Special"
+        },
+        {
+            _id: "26",
+            name: "Falafel with Hummus",
+            image: food_26,
+            price: 12,
+            description: "Chickpea fritters served with creamy hummus.",
+            category: "Heba's Special"
+        },
+        {
+            _id: "27",
+            name: "Chicken Mandi",
+            image: food_27,
+            price: 18,
+            description: "Smoky Yemeni rice dish with spiced chicken and nuts.",
+            category: "Heba's Special"
+        },
+        {
+            _id: "28",
+            name: "Kunafa",
+            image: food_28,
+            price: 15,
+            description: "Cheese-filled Middle Eastern dessert with crispy vermicelli.",
+            category: "Heba's Special"
+        },  {
+            _id: "29",
+            name: "Rajma Chawal",
+            image: food_29,
+            price: 12,
+            description: "Kidney beans curry served with steamed rice.",
+            category: "Bina's Bowl"
+        },
+        {
+            _id: "30",
+            name: "Vegetable Pulao",
+            image: food_30,
+            price: 14,
+            description: "Lightly spiced rice with mixed vegetables.",
+            category: "Bina's Bowl"
+        },
+        {
+            _id: "31",
+            name: "Kadai Paneer",
+            image: food_31,
+            price: 16,
+            description: "Paneer tossed with bell peppers and onion in kadai masala.",
+            category: "Bina's Bowl"
+        },
+        {
+            _id: "32",
+            name: "Gulab Jamun",
+            image: food_32,
+            price: 10,
+            description: "Soft fried milk dumplings in sugar syrup.",
+            category: "Bina's Bowl"
+        },
+        {
+            _id: "33",
+            name: "Curd Rice",
+            image: food_33,
+            price: 10,
+            description: "Creamy yogurt rice with curry leaf tempering.",
+            category: "Radha's Taste Trails"
+        },
+        {
+            _id: "34",
+            name: "Vada Sambar",
+            image: food_34,
+            price: 12,
+            description: "Crispy lentil fritters dipped in hot sambar.",
+            category: "Radha's Taste Trails"
+        },
+        {
+            _id: "35",
+            name: "Tamarind Rice (Puliyodarai)",
+            image: food_35,
+            price: 11,
+            description: "Tangy rice flavored with tamarind paste and spices.",
+            category: "Radha's Taste Trails"
+        },
+        {
+            _id: "36",
+            name: "Filter Coffee",
+            image: food_36,
+            price: 6,
+            description: "South Indian strong coffee brewed in traditional filter.",
+            category: "Radha's Taste Trails"
+        },
+        {
+            _id: "37",
+            name: "Masala Chai",
+            image: food_37,
+            price: 6,
+            description: "Spiced Indian tea with milk, cardamom, and ginger.",
+            category: "Shahid's Shaam ki Mehfil"
+        },
+        {
+            _id: "38",
+            name: "Chicken Samosa",
+            image: food_38,
+            price: 12,
+            description: "Crispy pastry filled with spiced chicken mince.",
+            category: "Shahid's Shaam ki Mehfil"
+        },
+        {
+            _id: "39",
+            name: "Pakora Platter",
+            image: food_39,
+            price: 10,
+            description: "Assorted vegetable fritters deep-fried till golden.",
+            category: "Shahid's Shaam ki Mehfil"
+        },
+        {
+            _id: "40",
+            name: "Irani Chai with Osmania Biscuit",
+            image: food_40,
+            price: 8,
+            description: "Hyderabadi-style Irani chai served with buttery Osmania biscuits.",
+            category: "Shahid's Shaam ki Mehfil"
+        }
+    ];
