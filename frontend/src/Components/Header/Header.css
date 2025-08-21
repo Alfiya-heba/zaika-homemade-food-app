@@ -2,7 +2,7 @@
   height: 80vh; /* Flexible full-screen style */
   width: 100%;
   margin: 30px auto;
-  background: url('header.png') no-repeat center center;
+  background: url(${assets.header_img}) no-repeat center center;
   background-size: cover;
   position: relative;
   border-radius: 15px; /* Keep consistent with overlay */
