@@ -1,12 +1,26 @@
-# React + Vite
+Zaika is a homemade food delivery web application where users can explore delicious dishes prepared by nearby home chefs. It provides an easy-to-use interface with categories, menu items, and smooth navigation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
 
-Currently, two official plugins are available:
+🔗 View Live on Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Features
 
-## Expanding the ESLint configuration
+📖 Dynamic Menu – Categorized food items with descriptions, prices, and images
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🍴 Multiple Kitchens – Explore food from different “aunties’ kitchens” (e.g., Fathima’s Kitchen, Sharma’s Kitchen, etc.)
+
+🎨 Modern UI/UX – Clean and responsive design built with React
+
+⚡ Fast & Optimized – Deployed on Vercel
+ for smooth performance
+
+📱 Responsive Design – Works seamlessly on desktop and mobile
+
+🛠️ Tech Stack
+
+Frontend: React.js, JavaScript, HTML, CSS
+
+Styling: CSS Modules / Tailwind (depending on your setup)
+
+Hosting & Deployment: Vercel
