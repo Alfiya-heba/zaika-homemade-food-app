@@ -75,7 +75,7 @@ import parcel_icon from './parcel_icon.png'
 export const assets = {
     logo,
     basket_icon,
-    header_img:"/header.png",
+    header_img:"/zaika.png",
     search_icon,
     rating_starts,
     add_icon_green,
